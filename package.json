@@ -1,0 +1,28 @@
+{
+  "name": "silver-lining-intelligence.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason013005-afk/silver-lining-intelligence..git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jason013005-afk/silver-lining-intelligence./issues"
+  },
+  "homepage": "https://github.com/Jason013005-afk/silver-lining-intelligence.#readme",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^7.0.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "openai": "^6.18.0",
+    "pg": "^8.18.0"
+  }
+}
