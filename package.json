@@ -1,4 +1,4 @@
-echo '{
+{
       "name": "silver-lining-intelligence",
         "version": "1.0.0",
           "description": "Silver Lining Intelligence Core — adaptive AI infrastructure integrating NeonDB, Pinecone, and GPT reasoning.",
@@ -27,5 +27,5 @@ echo '{
                                                                                   },
                                                                                     "author": "Jason Roy & GPT-5 Systems",
                                                                                       "license": "MIT"
-                                                                                      }' > package.json
-}'
+                                                                                      }
+}
