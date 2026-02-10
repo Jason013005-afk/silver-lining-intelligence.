@@ -1,7 +1,7 @@
-{
+echo '{
     "name": "silver-lining-intelligence",
       "version": "1.0.0",
-        "description": "Silver Lining Intelligence Core — adaptive AI infrastructure integrating NeonDB (Postgres), Pinecone Vector Memory, and GPT reasoning.",
+        "description": "Silver Lining Intelligence Core — adaptive AI infrastructure integrating NeonDB, Pinecone, and GPT reasoning.",
           "type": "module",
             "main": "server.js",
               "scripts": {
@@ -30,16 +30,11 @@
                                                                                           "NeonDB",
                                                                                               "Pinecone",
                                                                                                   "Intelligence",
-                                                                                                      "Adaptive Memory",
-                                                                                                          "Server",
-                                                                                                              "GPT-5",
-                                                                                                                  "Silver Lining"
-                                                                                                                    ],
-                                                                                                                      "author": "Jason Roy & GPT-5 Systems",
-                                                                                                                        "license": "MIT",
-                                                                                                                          "repository": {
-                                                                                                                              "type": "git",
-                                                                                                                                  "url": "https://github.com/Jason013005-afk/silver-lining-intelligence.git"
-                                                                                                                                    }
-                                                                                                                                    }
-}
+                                                                                                      "Server",
+                                                                                                          "GPT-5",
+                                                                                                              "Silver Lining"
+                                                                                                                ],
+                                                                                                                  "author": "Jason Roy & GPT-5 Systems",
+                                                                                                                    "license": "MIT"
+                                                                                                                    }' > package.json
+}'
